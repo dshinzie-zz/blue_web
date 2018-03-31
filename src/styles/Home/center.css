@@ -1,0 +1,26 @@
+.center-container {
+  height: 40vh;
+  width: 100%;
+  background-image: url('../../assets/home/cliff_beach.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.center-header {
+  align-self: end;
+}
+
+.center-subheader {
+  align-self:  start;
+  font-weight: 200;
+}
+
+.center-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

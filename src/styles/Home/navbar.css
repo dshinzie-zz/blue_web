@@ -1,0 +1,24 @@
+.nav-bar {
+  display: grid;
+  grid-template-columns: .25fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+  height: 7vh;
+}
+
+.nav-bar-logo {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.nav-bar-links {
+  width: 80%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
