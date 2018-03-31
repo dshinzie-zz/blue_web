@@ -1,4 +1,4 @@
-.center-container {
+.top-info-container {
   height: 40vh;
   width: 100%;
   background-image: url('../../assets/home/cliff_beach.jpg');
@@ -11,16 +11,16 @@
   justify-items: center;
 }
 
-.center-header {
+.top-info-header {
   align-self: end;
 }
 
-.center-subheader {
+.top-info-subheader {
   align-self:  start;
   font-weight: 200;
 }
 
-.center-links {
+.top-info-links {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }

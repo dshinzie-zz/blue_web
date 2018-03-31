@@ -1,0 +1,21 @@
+.center-info-container {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.center-info-header {
+  color: royalblue;
+  font-weight: 300;
+}
+
+.center-info-line {
+  border-bottom: 1px solid grey;
+  padding: 0 10px;
+  width: 90%;
+  margin: 2%;
+}
