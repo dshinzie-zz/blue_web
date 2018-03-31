@@ -1,0 +1,40 @@
+.bottom-info-container {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 80vw;
+  margin: 5vh auto;
+}
+
+.bottom-info-header {
+  font-size: 14pt;
+}
+
+.bottom-info-links {
+  display: grid;
+  grid-template-columns: repeat(3, 30vh);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5vw;
+}
+
+.bottom-info-link-img {
+  display: block;
+  height: 30vh;
+  width: 30vh;
+  background-color: lightgray;
+}
+
+.bottom-info-get-started {
+  width: 15vw;
+  height: 5vh;
+  text-align: center;
+  font-weight: 350;
+  font-size: 16pt;
+  color: white;
+  background-color: royalblue;
+  display: grid;
+  align-items: center;
+  
+}

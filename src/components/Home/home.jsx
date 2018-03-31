@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './navbar';
 import TopInfo from './top_info';
 import CenterInfo from './center_info';
+import BottomInfo from './bottom_info';
 import classNames from 'classnames/bind';
 import css from '../../styles/Home/home.css';
 
@@ -13,6 +14,7 @@ const Home = () => (
     <Navbar/>
     <TopInfo/>
     <CenterInfo/>
+    <BottomInfo/>
   </div>
 )
 
